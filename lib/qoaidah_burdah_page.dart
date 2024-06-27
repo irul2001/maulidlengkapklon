@@ -14,7 +14,7 @@ class QoaidahBurdahPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Al-Barzanji',
+          'Qosidah Burdah',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.green,
@@ -37,7 +37,7 @@ class QoaidahBurdahPage extends StatelessWidget {
           _buildListTile(
               context, '3', 'Al-Fashlul Tsalis - 3', const Alfaslussalis()),
           _buildListTile(context, '4', 'Al-Fashlur Robi\' - 4', Alfaslurrobi()),
-          _buildListTile(context, '5', 'Doa', const Doa()),
+          _buildListTile(context, '5', 'Al-Fashlul Asir - 10', const Doa()),
         ],
       ),
     );

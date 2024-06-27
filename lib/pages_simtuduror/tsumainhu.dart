@@ -22,7 +22,10 @@ class _TsumainahuState extends State<Tsumainhu> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tsumma Innahu Sholallah'),
+        title: const Text(
+          'Tsumma Innahu Sholallah',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

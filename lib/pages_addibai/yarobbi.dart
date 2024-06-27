@@ -20,7 +20,10 @@ class _YarobbiState extends State<Yarobbi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ya Robbi Sholi'),
+        title: const Text(
+          'Ya Robbi Sholi',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

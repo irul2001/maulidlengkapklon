@@ -23,7 +23,10 @@ class _FahuwaState extends State<Fahuwa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fahuwa'),
+        title: const Text(
+          'Fahuwa',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

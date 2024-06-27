@@ -22,7 +22,10 @@ class _WahinabarozaState extends State<Wahinabaroza> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wahina Baroza'),
+        title: const Text(
+          'Wahina Baroza',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

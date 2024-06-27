@@ -23,7 +23,10 @@ class _AlhamdulillahqowiState extends State<Alhamdulillahqowi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Alhamdulillahil Qowi'),
+        title: const Text(
+          'Alhamdulillahil Qowi',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

@@ -23,7 +23,10 @@ class _AbtadiulState extends State<Abtadiul> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Abtadiul'),
+        title: const Text(
+          'Abtadiul',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

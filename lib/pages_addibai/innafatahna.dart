@@ -23,7 +23,10 @@ class _InnafatahnaState extends State<Innafatahna> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Innafatahna'),
+        title: const Text(
+          'Innafatahna',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

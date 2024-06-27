@@ -22,7 +22,10 @@ class _FahinaState extends State<Fahina> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fahina Qoruba'),
+        title: const Text(
+          'Fahina Qoruba',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

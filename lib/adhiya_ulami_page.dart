@@ -14,7 +14,7 @@ class AdhiyaUlamiPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Al-Barzanji',
+          'Adhiya Ulami',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.green,

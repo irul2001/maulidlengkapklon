@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:maulidlengkapklon/simtuduror_page.dart';
 import 'package:maulidlengkapklon/adhiya_ulami_page.dart';
@@ -5,6 +7,7 @@ import 'package:maulidlengkapklon/al_azab_page.dart';
 import 'package:maulidlengkapklon/al_barzanji_page.dart';
 import 'package:maulidlengkapklon/maulid_ad_dibai_page.dart';
 import 'package:maulidlengkapklon/qoaidah_burdah_page.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,14 +53,30 @@ class HomePage extends StatelessWidget {
               Icons.star,
               color: Colors.white,
             ),
-            onPressed: () {},
+            onPressed: () async {
+              const url =
+                  'https://play.google.com/store/apps/details?id=com.islamiapps.maulid';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
           ),
           IconButton(
             icon: const Icon(
               Icons.share,
               color: Colors.white,
             ),
-            onPressed: () {},
+            onPressed: () async {
+              const url =
+                  'https://play.google.com/store/apps/details?id=com.islamiapps.maulid';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
           ),
         ],
       ),
@@ -65,9 +84,20 @@ class HomePage extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Image.asset(
-              'images/logo1.jpg',
-              fit: BoxFit.contain,
+            child: GestureDetector(
+              onTap: () async {
+                const url =
+                    'https://play.google.com/store/apps/details?id=com.islamiapps.quranpro';
+                if (await canLaunch(url)) {
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              },
+              child: Image.asset(
+                'images/logo1.jpg',
+                fit: BoxFit.contain,
+              ),
             ),
           ),
           _buildListTile(context, '1', 'Simtudduror', SimtuddurorPage()),

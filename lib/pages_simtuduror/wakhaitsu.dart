@@ -22,7 +22,10 @@ class _WakhaitsuState extends State<Wakhaitsu> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wa Khaitsu Tasarrofatil'),
+        title: const Text(
+          'Wa Khaitsu Tasarrofatil',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

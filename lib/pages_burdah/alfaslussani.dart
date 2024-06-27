@@ -23,7 +23,10 @@ class _AlfaslussaniState extends State<Alfaslussani> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Al-Faslus Sani - 2'),
+        title: const Text(
+          'Al-Faslus Sani - 2',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

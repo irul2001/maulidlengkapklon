@@ -23,7 +23,10 @@ class _AlfaslurrobiState extends State<Alfaslurrobi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Al-Faslur Robi\' - 4'),
+        title: const Text(
+          'Al-Faslur Robi\' - 4',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),
@@ -46,12 +49,13 @@ class _AlfaslurrobiState extends State<Alfaslurrobi> {
         ),
       ),
       bottomNavigationBar: BottomAppBar(
+        color: Colors.green,
         shape: const CircularNotchedRectangle(),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             IconButton(
-              icon: const Icon(Icons.arrow_back),
+              icon: const Icon(Icons.arrow_back, color: Colors.white),
               onPressed: () {
                 Navigator.push(
                   context,

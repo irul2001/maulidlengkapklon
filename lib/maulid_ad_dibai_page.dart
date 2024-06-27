@@ -14,7 +14,7 @@ class MaulidAdDibaiPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Simtudduror',
+          'Maulid Ad-Diba\'i',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.green,

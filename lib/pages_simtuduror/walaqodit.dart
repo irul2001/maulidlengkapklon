@@ -22,7 +22,10 @@ class _WalaqoditState extends State<Walaqodit> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wa Laqodit Tasarofa'),
+        title: const Text(
+          'Wa Laqodit Tasarofa',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

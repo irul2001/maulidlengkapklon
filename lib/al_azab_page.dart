@@ -14,7 +14,7 @@ class AlAzabPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Al-Barzanji',
+          'Al-Azab',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.green,

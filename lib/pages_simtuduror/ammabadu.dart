@@ -22,7 +22,10 @@ class _AmmabaduState extends State<Ammabadu> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Amma Badu'),
+        title: const Text(
+          'Amma Badu',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

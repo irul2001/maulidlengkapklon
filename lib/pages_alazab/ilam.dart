@@ -22,7 +22,10 @@ class _IlamState extends State<Ilam> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('I\'ilam'),
+        title: const Text(
+          'I\'ilam',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

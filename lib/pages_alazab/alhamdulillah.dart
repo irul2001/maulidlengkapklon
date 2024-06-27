@@ -22,7 +22,10 @@ class _AlhamdulillahState extends State<Alhamdulillah> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Alhamdulillah'),
+        title: const Text(
+          'Alhamdulillah',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

@@ -22,7 +22,10 @@ class _WaqodanaState extends State<Waqodana> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wa Qod Aana'),
+        title: const Text(
+          'Wa Qod Aana',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

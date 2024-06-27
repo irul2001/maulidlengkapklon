@@ -23,7 +23,10 @@ class _WalmmaState extends State<Walmma> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Walamma'),
+        title: const Text(
+          'Walamma',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

@@ -22,7 +22,10 @@ class _WamundzuState extends State<Wamundzu> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wa Mundzu'),
+        title: const Text(
+          'Wa Mundzu',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

@@ -22,7 +22,10 @@ class _WaminasyarofiState extends State<Waminasyarofi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Waminnasyarofi'),
+        title: const Text(
+          'Waminnasyarofi',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

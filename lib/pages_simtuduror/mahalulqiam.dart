@@ -22,7 +22,10 @@ class _MahalulqiamState extends State<Mahalulqiam> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Mahalul Qiyam'),
+        title: const Text(
+          'Mahalul Qiyam',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

@@ -23,7 +23,10 @@ class _FanasaState extends State<Fanasa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fanasaa'),
+        title: const Text(
+          'Fanasaa',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

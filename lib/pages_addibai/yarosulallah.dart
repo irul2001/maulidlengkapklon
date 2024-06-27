@@ -23,7 +23,10 @@ class _YarosulallahState extends State<Yarosulallah> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ya Rosulallah'),
+        title: const Text(
+          'Ya Rosulallah',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),

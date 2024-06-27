@@ -23,7 +23,10 @@ class _HadawalammaState extends State<Hadawalamma> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hada Walamma'),
+        title: const Text(
+          'Hada Walamma',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.green,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),
